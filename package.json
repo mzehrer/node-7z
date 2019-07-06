@@ -1,6 +1,6 @@
 {
   "name": "node-7z-forall",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Node.js wrapper for 7-Zip with platform binaries",
   "main": "lib/index.js",
   "scripts": {
@@ -46,9 +46,7 @@
   ],
   "dependencies": {
     "when": "^3.7.8",
-    "cross-spawn": "^6.0.5"
-  },
-  "optionalDependencies": {
+    "cross-spawn": "^6.0.5",
     "all-unpacker": "^0.1.2",
     "fs-extra": "^7.0.0",
     "macos-release": "^2.0.0",
